@@ -12,6 +12,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="logo" href="https://img.freepik.com/free-vector/gradient-creative-coyote-logo-template_23-2149195097.jpg?w=740&t=st=1683641484~exp=1683642084~hmac=f9427ada0b89c43b0f24159ffe76b66b39bc043db13362ab462a8577e6832761">
   <title>PYQ Hub</title>
+  <link rel="icon" href="pyqhub.jpeg">
   <link rel="stylesheet" href="index1.css">
 </head>
 <body>
@@ -21,17 +22,17 @@
 <div class="navbar"height="100px" width="300px">
   <a href="#" class="logo"></a>
   <h1><img height="75px" width="300px" src="pyqhub.jpeg" alt="PYQ Hub"></h1>
-  <a href="#">Home</a>
-  <a href="#">Contact</a>
-  <a href="#">About</a>
-  <a href="#">Questions</a>
+  <a href="#Home">Home</a>
+  <a href="#Question">Questions</a>
+  <a href="login.html">Registration</a>
+  <a href="#Contact">Contact</a>
 </div>
   
   
     
     
 
-<section class="home">
+<section class="home" id="Home">
     <div class="home-content">
         <h1>Learn more and make success the result  perfection</h1>
         <h3>Makaut Question Papers</h3>
@@ -48,7 +49,8 @@
     </div>
 
 </section>
-  <div class="box-container">
+
+  <div class="box-container" id="Question">
     <div class="box" onclick="window.location.href='Semester1.html'">
       <h3>semester 1</h3>
     </div>
@@ -76,42 +78,39 @@
 </div>
 <hr/>
 
-<div class="jumbotron">
-  <div class="bg-danger text-white text-decoration:">
 
-  </div>
 
 <p class="display-2 text-info centre" style="text-align:center";
     >Reviews</p>
 <div class="container">
-<div class="row">
-  <div class="col-md-6">
-    <div class="mt-4 p-5 custom-container text-white rounded">
-      <h1>Aviraj</h1>
-      <p class="display">Pyq hub is one of the best e-learning website I have every come across.</p>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="mt-4 p-5 custom-container text-white rounded">
+        <h1>Aviraj</h1>
+        <p class="display">Pyq hub is one of the best e-learning website I have every come across.</p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="mt-4 p-5 custom-container text-white rounded">
+        <h1>Aditya</h1>
+        <p class="display">I have been able to all the question papers related to my subjects. Really Helpful.</p>
+      </div>
     </div>
   </div>
-  <div class="col-md-6">
-    <div class="mt-4 p-5 custom-container text-white rounded">
-      <h1>Aditya</h1>
-      <p class="display">I have been able to all the question papers related to my subjects. Really Helpful.</p>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="mt-4 p-5 custom-container text-white rounded">
+        <h1>Akash</h1>
+        <p class="display">Really appreciate the effors and initiatives from the team to make the website and create the database for question papers.</p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="mt-4 p-5 custom-container text-white rounded">
+        <h1>Prashant</h1>
+        <p class="display">Best and only website to find the latest and most reliable previous year question papers.</p>
+      </div>
     </div>
   </div>
-</div>
-<div class="row">
-  <div class="col-md-6">
-    <div class="mt-4 p-5 custom-container text-white rounded">
-      <h1>Akash</h1>
-      <p class="display">Really appreciate the effors and initiatives from the team to make the website and create the database for question papers.</p>
-    </div>
-  </div>
-  <div class="col-md-6">
-    <div class="mt-4 p-5 custom-container text-white rounded">
-      <h1>Prashant</h1>
-      <p class="display">Best and only website to find the latest and most reliable previous year question papers.</p>
-    </div>
-  </div>
-</div>
 </div>
 </body>
 <br>
@@ -121,7 +120,7 @@
 <br>
 <br>
 <br>
-<footer>
+<div>
       <div class="container">        
           <div class="jumbotron">
             <div class="mt-4 p-5 text-danger rounded custom-containeer">
@@ -146,12 +145,8 @@
             </div>
           </div>        
       </div>
-  </footer> 
- <br>
- <br>
- <br>
- <br>
- <br>
+</div> 
+
 <footer class="footer pt-4 bg-dark">
   <div class="container pt-4 bg-dark">
     <div class="row">
@@ -162,13 +157,12 @@
       <div class="col text-white">
         <h3>Quick Links</h3>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Questions</a></li>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Question">Questions</a></li>
+          <li><a href="login.html">Registration</a></li>
         </ul>
       </div>
-      <div class="col text-white">
+      <div class="col text-white" id="Contact">
         <h3>Contact Us</h3>
         <p>3rd Floor, Vistar Arcade<br>14th Main Road Bangalore 560102<br>Karnataka, India<br>Phone: (+91) 89725 47036<br>Email: info@example.com</p>
       </div>
